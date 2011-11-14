@@ -8,10 +8,6 @@
 	</array>
 	<key>firstLineMatch</key>
 	<string>-[*]-( Mode:)? Gri -[*]-</string>
-	<key>foldingStartMarker</key>
-	<string>(/\*\*|\{\s*$)</string>
-	<key>foldingStopMarker</key>
-	<string>(\*\*/|^\s*\})</string>
 	<key>name</key>
 	<string>Gri</string>
 	<key>patterns</key>
