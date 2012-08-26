@@ -55,7 +55,7 @@ ${TOPDF} "${DIR}/$PSFILE" &gt; "${DIR}/$PDFFILE";
 # View...
 if [ "$V" == html ]; then
 	if [ -s "${PDFFILE}" ]; then
-		WEB_LOC="tm-file://${DIR}/${PDFFILE}"
+		WEB_LOC="file://${DIR}/${PDFFILE}"
 		if (($RC != 0)); then
 			link "${WEB_LOC}" 'Click Here to Preview'
 		else
