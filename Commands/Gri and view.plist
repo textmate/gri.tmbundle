@@ -101,6 +101,8 @@ fi
 	</array>
 	<key>scope</key>
 	<string>source.gri</string>
+	<key>semanticClass</key>
+	<string>process.build.gri</string>
 	<key>uuid</key>
 	<string>41A8F343-48CB-482E-A395-34C31CE9A5AB</string>
 	<key>version</key>
